@@ -1,0 +1,14 @@
+{
+  "name": "medspok-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Med Spok Solutions Pvt Ltd — medical equipment on rent and sale, Porur, Chennai",
+  "scripts": {
+    "check": "node tools/checklinks.js",
+    "build": "node tools/build-pages.js",
+    "start": "npx --yes serve ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
